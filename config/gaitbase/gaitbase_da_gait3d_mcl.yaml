@@ -100,6 +100,7 @@ trainer_cfg:
 #    frames_skip_num: 0
     sample_type: unfixed_unordered # fixed control input frames number, unordered for controlling order of input tensor; Other options: unfixed_ordered or all_ordered
     type: TripletSampler
+    interval: false
   transform:
     - type: Compose
       trf_cfg:
