@@ -24,7 +24,7 @@ loss_cfg:
   - loss_term_weight: 1.0
     margin: 0.6
     gamma: 0.6
-    type: TripletLoss
+    type: ViewLoss
     log_prefix: triplet
   - loss_term_weight: 1.0
     scale: 16
